@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+</head>
+<body>
+<a-scene stats>
+<a-assets>
+s<a-asset-item id= "hall" src= "hall.glb"></a-asset-item>
+</a-assets>
+<a-entity gltf-model="#hall" position="0 -2.5 0" scale="1 1 1"></a-entity>
+<a-plane position= "0 0 0" rotation= "-90 0 0" width= "60" height= "60" color= "#333230"></a-plane>
+<a-sky color="#fcfcfc"></a-sky>
+</a-scene>
+</body>
+</html>
